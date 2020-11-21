@@ -1,0 +1,13 @@
+#Complete the pairs function below. It must return an integer representing the number of element pairs having the required difference.
+
+#pairs has the following parameter(s):
+
+#k: an integer, the target difference
+#arr: an array of integers
+def pairs(k, arr):
+    count=0
+    arr = set(arr)
+    for i in arr:
+        if(i+k in arr):
+            count+=1
+    return count
