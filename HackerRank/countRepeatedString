@@ -1,0 +1,18 @@
+def repeatedString(s, n):
+    l = len(s)
+    totalCount = 0
+    def countOccurence(s):
+        count=0
+        for c in s:
+            if(c=='a'):
+                count+=1
+        return count
+    if(l==0):
+        return 0
+    if(l<n):
+        rem = n%l
+        times = n//l
+        totalCount = countOccurence(s)*times + countOccurence(s[:rem])
+    else:
+        totalCount = countOccurence(s[:rem])
+    return totalCount  
