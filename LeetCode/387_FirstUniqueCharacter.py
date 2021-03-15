@@ -1,3 +1,4 @@
+### Find first unique character
 class Solution:
     def firstUniqChar(self, s: str) -> int:
         S = 'abcdefghijklmnopqrstuvwxyz'
