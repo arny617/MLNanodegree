@@ -8,7 +8,7 @@ Explanation: The substrings with one distinct letter are "aaa", "aa", "a", "b".
 "aa" occurs 2 times.
 "a" occurs 4 times.
 "b" occurs 1 time.
-So the answer is 1 + 2 + 4 + 1 = 8.
+So the answer is 1 + 2 + 4 + 1 = 8
 """
 def countLetters(S):
     begin = 1
