@@ -1,4 +1,4 @@
-### Count number of triplets that form a geometric progression
+### Count no. of triplets that form a geometric progression
 def countTriplets(arr, r):
     m1, m2 = defaultdict(int), defaultdict(int)
 
