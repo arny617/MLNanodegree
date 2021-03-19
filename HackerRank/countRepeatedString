@@ -1,3 +1,4 @@
+### Count repeated strings
 def repeatedString(s, n):
     l = len(s)
     totalCount = 0
