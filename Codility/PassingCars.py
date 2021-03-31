@@ -1,4 +1,4 @@
-### Passing Cars: Count how many times cars pass each other, West -> 1, East -> 0
+### Passing Cars: Count how many times cars pass each other, West -> 1, East -> 0.
 def countPassingCars(A):
     stack = []
     countEast = 0
